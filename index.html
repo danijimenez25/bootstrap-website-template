@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+        header{
+            background-image:url("images/iran.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+    </style>
+  </head>
+  <body>
+   
+    <!-- main header with hero image -->
+    <header class="container-fluid text-center vh-100 d-flex flex-column justify-content-center text-white">
+        <h1 class="display-1 fw-bolder">I'm an investigative reporter covering immigration, tech, and public safety</h1>
+    </header>
+
+    
+    <div class="container my-5 text-center">
+        <!-- Best SEO way to include name of author per Google -->
+        <address rel="author">By Daniella Jiménez</address>
+        <time class="small text-body-secondary" datetime="2025-02">Feb 2025</time>
+    </div>
+
+
+    <!-- start main text -->
+    <article class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+                
+                <h4>About Me</h4>
+                <style>
+                    header{
+                        text-align: center;
+                    }
+
+                    div{
+                        text-align: center;
+                    }
+                </style>
+
+                <figure class="figure w-75 d-block mx-auto">
+                    <img src="images/HEADSHOT.jpeg" class="figure-img img-fluid" alt="placeholder">
+                    <figcaption class="figure-caption">Daniella Jiménez</figcaption>
+                </figure>
+
+                <p>Jiménez, a Miami native, a journalist and a graduate student from UC Berkeley Graduate School of Journalism. She is a reporter for the Investigative Reporting Program in Berkeley, California. Recently, she was awarded the NICAR25 fellowship by the Investigative Reporters and Editors organization. Her work has appeared in USA TODAY,  Mother Jones, Washington Post, CNBC and NBC4/Telemundo44 in Washington D.C. Her 2023 investigation into administrative failings in the State Department’s “diversity visa” program was published by Mother Jones magazine and Center for Public Integrity. At the Washington Post's newsroom, she contributed to an in-depth report into Former President Trump's pardons. Previously, she has graduated from American University’s School of Communication where she studied journalism and international studies with a concentration in economics.</p>
+                <p>While at AU, she was the president of the school’s chapter of the National Association of Hispanic Journalists; a reporting fellow at the Investigative Reporting Workshop, an investigative reporting lab; and received the Ron Sutton Visual Literacy Award and the American News Women's Club Scholarship. The proud daughter of first generation Colombian immigrants, Jiménez was raised in Hialeah, Florida.</p>
+                
+                <h4>Highlighted Works</h4>
+
+                <div id="carouselExample1" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/river.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/trump.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/visa.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>                
+                
+                <p>USAToday:"This overflowing dam swept away a family's legacy. It's a growing risk across the US" Aug. 28, 2024</p>
+                <p>Washington Post: "Trump pardoned them. Now they’re helping him return to power." Dec. 2, 2023</p>             
+                <p>Mother Jones: 
+                    "The Biggest Backlog in the US Diversity Visa Program? All the Broken Promises to Those Who Applied." Oct. 12, 2023.</p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <img src="images/document.png" class="img-fluid" alt="document">
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </article><!-- closed .container -->
+
+
+    <!-- Two images side by side -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4>Recent Works</h4>
+            </div>
+            <div class="col-6">
+                <img src="images/valley.jpg" class="img-fluid" alt="placeholder">
+                <figcaption class="figure-caption">Valley View Elementary School</figcaption>
+            </div>
+            <div class="col-6">
+                <img src="images/school.jpg" class="img-fluid" alt="placeholder">
+                <figcaption class="figure-caption">West Contra Costa Unified School District</figcaption>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- resume text paragraphs -->
+    <article class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+                <p>"WCCUSD schools are losing students to charter schools at alarming rate, stressing district budget." Dec. 19, 2024</p>
+                <p>"WCCUSD test scores lag behind state, with sharp swings that show disparity among schools." Dec. 20, 2024</p>                
+                <!-- example of image with text wrap due to .float-start class -->
+                <figure class="figure w-50 d-block float-start me-3">
+                    <img src="images/vote.jpg" class="figure-img img-fluid" alt="placeholder">
+                    <figcaption class="figure-caption">How Richmond Residents Voted in this Presidential Election Year</figcaption>
+                </figure>
+                <p>"How did Richmond vote: Final 2024 general election results charts." Dec. 16, 2024</p>
+                <p>"Chevron working to clean up spill that dumped more than 100 gallons of oil in San Francisco Bay" Nov. 15, 2024</p>
+                <p>"Prop. 33 could bring relief to cost-burdened households, but is it fair to small landlords?" Nov. 2, 2024</p>
+            </div>
+        </div>
+    </article>
+
+
+
+    <!-- Modal example -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/g7x8SZRQbM0?si=33KAoWYhLUjx4XHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- example of a footer -->
+    <footer class="container-fluid bg-dark text-white p-5">
+        <p class="text-center">Website by Daniella Jiménez</p>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
